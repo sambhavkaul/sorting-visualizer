@@ -1,4 +1,5 @@
 {
+  "homepage": "http://sambhavkaul.github.io/sorting-visualizer",
   "name": "sorting-visualizer",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +9,9 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-scripts": "3.3.0",
+    "typescript": "^3.7.4"
   },
-  "homepage": "http://sambhavkaul.github.io/sorting-visualizer",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
